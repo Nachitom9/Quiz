@@ -1,0 +1,125 @@
+* {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+
+  body {
+    background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='40' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%233c0e84' fill-opacity='0.46'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    margin: 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    text-align: center;
+  }
+  
+
+  
+  .app {
+    background-color: #3d0b80be;
+    max-width: 650px;
+    min-width: 450px;
+    height: min-content;
+    min-height: 200px;
+    border-radius: 15px;
+    padding: 60px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+  
+  /* PREGUNTAS */
+  .lado-izquierdo {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .pregunta-numero {
+    margin-bottom: 20px;
+  }
+  
+  .pregunta-numero span {
+    font-size: 28px;
+  }
+  
+  .pregunta-titulo {
+    margin-bottom: 12px;
+  }
+  
+  .lado-derecho {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+ 
+  .juego-terminado {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 24px;
+    align-items: center;
+  }
+  
+  button {
+    width: 100%;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 15px;
+    display: flex;
+    padding: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 5px solid #000000;
+    cursor: pointer;
+  }
+  
+  .tiempo-restante {
+    font-size: 14px;
+    color: #fcbf3d;
+    margin-bottom: 20px;
+  }
+  
+  .correct,
+  .correct:hover {
+    background-color: #2f922f;
+  }
+  
+  .incorrect,
+  .incorrect:hover {
+    background-color: #ff3333;
+  }
+  
+  .btns-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  button:hover {
+    background-color: #5e1886;
+  }
+  
+  button[disabled] {
+    background-color: #5e1886;
+    color: #ffffff;
+    cursor: not-allowed;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button svg {
+    margin-right: 5px;
+  }
+
+  
